@@ -6,7 +6,7 @@
 /*   By: julifern <julifern@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 14:57:31 by julifern          #+#    #+#             */
-/*   Updated: 2024/11/06 19:39:26 by julifern         ###   ########.fr       */
+/*   Updated: 2024/11/07 12:35:04 by julifern         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,16 +36,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	sub[i] = '\0';
 	return (sub);
 }
-// #include <stdio.h>
-
-// int	main()
-// {
-// 	char const	*s = "hello";
-// 	unsigned int 	start;
-// 	size_t	len;
-
-// 	start = 2;
-// 	len = 4;
-
-// 	printf("%s\n", ft_substr(s, start, len));
-// }

@@ -6,7 +6,7 @@
 /*   By: julifern <julifern@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 18:01:18 by julifern          #+#    #+#             */
-/*   Updated: 2024/11/07 11:18:16 by julifern         ###   ########.fr       */
+/*   Updated: 2024/11/07 12:37:45 by julifern         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	i = size * nmemb;
 	s = malloc(i);
 	if (!s)
-		return (NULL);	
+		return (NULL);
 	ft_bzero(s, i);
 	return (s);
 }
