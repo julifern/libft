@@ -6,26 +6,11 @@
 /*   By: julifern <julifern@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 16:03:32 by julifern          #+#    #+#             */
-/*   Updated: 2024/11/05 19:14:20 by julifern         ###   ########.fr       */
+/*   Updated: 2024/11/07 10:28:41 by julifern         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-// static char	*ft_strcpy(char const *src, char *dst, size_t start, size_t end)
-// {
-// 	size_t	i;
-
-// 	i = 0;
-// 	while (start <= end)
-// 	{
-// 		dst[i] = src[start];
-// 		i++;
-// 		start++;
-// 	}
-// 	dst[i] = '\0';
-// 	return (dst);
-// }
 
 static int	check_c(char const c, char const *set)
 {
@@ -58,13 +43,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	trimmed = ft_substr(s1, start, end - start);
 	return (trimmed);
 }
-// #include <stdio.h>
-
-// int	main()
-// {
-// 	char *s1 = "xxxz  test with x and z and x .  zx  xx z";
-// 	char *set = "z x";
-// 	char *res = ft_strtrim(s1, set);
-
-// 	printf("%s\n", res);
-// }

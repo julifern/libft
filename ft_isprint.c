@@ -6,7 +6,7 @@
 /*   By: julifern <julifern@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 20:08:19 by julifern          #+#    #+#             */
-/*   Updated: 2024/10/31 15:40:53 by julifern         ###   ########.fr       */
+/*   Updated: 2024/11/06 19:02:08 by julifern         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,5 @@ int	ft_isprint(int c)
 {
 	if (c >= 32 && c <= 126)
 		return (1);
-	else
-		return (0);
+	return (0);
 }

@@ -6,7 +6,7 @@
 /*   By: julifern <julifern@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 20:01:49 by julifern          #+#    #+#             */
-/*   Updated: 2024/10/31 15:03:46 by julifern         ###   ########.fr       */
+/*   Updated: 2024/11/06 19:01:58 by julifern         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,5 @@ int	ft_isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
 		return (1);
-	else
-		return (0);
+	return (0);
 }
