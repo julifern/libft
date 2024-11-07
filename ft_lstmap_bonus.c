@@ -6,7 +6,7 @@
 /*   By: julifern <julifern@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 15:49:26 by julifern          #+#    #+#             */
-/*   Updated: 2024/11/06 19:07:20 by julifern         ###   ########.fr       */
+/*   Updated: 2024/11/07 12:32:28 by julifern         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,8 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	while (lst)
 	{
 		tmp = f(lst->content);
+		if (!tmp)
+			return (NULL);
 		elem = ft_lstnew(tmp);
 		if (!elem)
 		{

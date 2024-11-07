@@ -6,7 +6,7 @@
 /*   By: julifern <julifern@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 09:41:19 by julifern          #+#    #+#             */
-/*   Updated: 2024/11/06 19:45:57 by julifern         ###   ########.fr       */
+/*   Updated: 2024/11/07 12:31:41 by julifern         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ static char	**ft_free_tabs(char **str, int j)
 	return (NULL);
 }
 
-char	**ft_splitter(char **str, char const *s, char c)
+static char	**ft_splitter(char **str, char const *s, char c)
 {
 	int	i;
 	int	j;

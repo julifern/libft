@@ -6,11 +6,9 @@
 /*   By: julifern <julifern@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 20:35:16 by julifern          #+#    #+#             */
-/*   Updated: 2024/10/31 15:10:33 by julifern         ###   ########.fr       */
+/*   Updated: 2024/11/07 12:32:47 by julifern         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_atoi(const char *nptr)
 {

@@ -6,7 +6,7 @@
 /*   By: julifern <julifern@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/04 13:44:49 by julifern          #+#    #+#             */
-/*   Updated: 2024/11/06 18:22:06 by julifern         ###   ########.fr       */
+/*   Updated: 2024/11/07 12:31:54 by julifern         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ char	*ft_itoa(int n)
 	if (n == -2147483648)
 		return (ft_strdup("-2147483648"));
 	i = ft_decimal(n);
-	str = malloc(sizeof(char) * i + 1);
+	str = malloc(sizeof(char) * (i + 1));
 	if (!str)
 		return (NULL);
 	str[i--] = '\0';
